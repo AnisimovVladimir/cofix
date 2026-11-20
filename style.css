@@ -1,0 +1,14 @@
+/* Cofix demo styles (SVG icons) */
+:root { --accent: #641d32; }
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; color:#333; margin:0; background:#f7f7f7; }
+.container { width: 92%; max-width: 1100px; margin: 0 auto; }
+header.site-header { background: #fff; padding: 12px 0; border-bottom:1px solid #eee; }
+.logo { font-weight: 700; font-size: 22px; color:#111; }
+.hero-video { width:100%; height:auto; display:block; }
+.hero-overlay { position:absolute; inset:0; background: rgba(0,0,0,.25); }
+.contacts-demo { background:#fff; border-radius:12px; padding:14px; box-shadow:0 2px 8px rgba(0,0,0,.05); margin: 0 0 20px; }
+.contact-social-demo { display:flex; flex-wrap:wrap; gap:12px; justify-content:center; align-items:center; }
+.contact-social-demo a { display:inline-flex; align-items:center; gap:8px; padding:8px 12px; border:1px solid var(--accent); border-radius:999px; color:var(--accent); text-decoration:none; font-weight:700; }
+.contact-social-demo a:hover { background:var(--accent); color:#fff; }
+.demo-footer { font-size:12px; opacity:.7; }
